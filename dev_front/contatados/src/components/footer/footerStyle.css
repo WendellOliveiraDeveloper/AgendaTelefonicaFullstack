@@ -1,0 +1,7 @@
+.rodape {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

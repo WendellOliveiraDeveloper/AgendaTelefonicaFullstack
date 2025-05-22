@@ -1,0 +1,32 @@
+.principal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 10px;
+  background-color: #5b1eefa3;
+  box-sizing: border-box;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botaoAdicionar {
+  display: flex;
+  justify-content: end;
+  margin-top: 55px;
+
+  & button {
+    font-size: 16px;
+    height: 45px;
+    background-color: #9854d8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+}
