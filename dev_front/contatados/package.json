@@ -6,12 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "prestart": "npm run format:check",
-    "predev": "npm run format:check"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
@@ -29,8 +24,6 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "husky": "^9.1.7",
-    "prettier": "^3.5.3",
-    "pretty-quick": "^4.1.1",
     "vite": "^6.3.5"
   }
 }

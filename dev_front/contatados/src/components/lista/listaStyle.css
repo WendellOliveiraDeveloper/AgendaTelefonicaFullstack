@@ -1,0 +1,44 @@
+.tabelaContatos {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #353535;
+  margin-top: 40px;
+
+  & thead {
+    background-color: #bdbdbd;
+  }
+
+  & th,
+  td {
+    padding: 10px;
+  }
+
+  .botoesTabela {
+    display: flex;
+    gap: 10px;
+
+    & .botaoEditar {
+      background-color: #69ffefb3;
+      border: none;
+      color: #000;
+      cursor: pointer;
+    }
+
+    & .botaoRemover {
+      background-color: #ff0000bd;
+      border: none;
+      color: #ffff;
+      cursor: pointer;
+    }
+  }
+}
+
+.cabecalhoLista {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

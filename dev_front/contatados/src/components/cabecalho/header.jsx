@@ -1,11 +1,13 @@
 import React from "react";
 import { useState } from "react";
 import "./headerStyle.css";
+import { useSelector } from "react-redux";
 import ModalCadastro from "../modal/cadastro/modalCadastro";
+import { verQuantidadeContatos } from "../../features/contatos/contatosSlice";
 
 function Header() {
-  const [numContatos, setNumContatos] = useState(0);
   const [showModal, setShowModal] = useState(false);
+  const numContatos = useSelector(verQuantidadeContatos);
 
   return (
     <>
